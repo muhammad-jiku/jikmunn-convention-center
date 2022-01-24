@@ -1,0 +1,27 @@
+:root{
+    --primary: #6047EC;
+}
+
+/* carousel section */
+.customize-carousel-caption > h1{
+    font-family: 'Mochiy Pop P One', sans-serif;
+    /* font-size: 38px; */
+    /* color: rgb(0, 0, 0); */
+}
+
+/* .customize-carousel-caption > p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+} */
+
+.customize-carousel-caption > a{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    background: var(--primary);
+    color: white;
+}
+
+.customize-carousel-caption > a:hover{
+    background: white;
+    color: var(--primary);
+}
