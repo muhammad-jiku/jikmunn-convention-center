@@ -1,18 +1,19 @@
 :root{
     --primary: #6047EC;
+    --shadow: 0 25px 5px #6047ec9f;
 }
 
-/* carousel section */
+/* header section starts */
 .customize-carousel-caption > h1{
     font-family: 'Mochiy Pop P One', sans-serif;
     /* font-size: 38px; */
     /* color: rgb(0, 0, 0); */
 }
 
-/* .customize-carousel-caption > p{
+.customize-carousel-caption > p{
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
-} */
+}
 
 .customize-carousel-caption > a{
     font-family: 'Poppins', sans-serif;
@@ -25,3 +26,77 @@
     background: white;
     color: var(--primary);
 }
+
+
+/* header section ends */
+
+/* main section starts */
+
+.customize-event-calendar-heading, .customize-book-section-heading{
+    font-family: 'Poppins', sans-serif;
+}
+
+.customize-event-calendar-heading > h2,h3{
+    font-weight: 900;
+}
+
+.customize-event-calendar-para, .customize-booking-section-para{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+
+.customize-event-calendar-button, .customize-booking-section-button{
+    
+    font-family: 'Poppins', sans-serif;
+}
+
+.customize-event-calendar-button, .customize-booking-section-button > button{
+    background: var(--primary);
+    color: white;
+    font-weight: 800;
+    border: 1px solid var(--primary);
+}
+
+.customize-event-calendar-button > button:hover{
+    background: white;
+    color: var(--primary);
+}
+
+.customize-package-section{
+    font-family: 'Poppins', sans-serif;
+}
+.customize-package-section > h1{
+    font-family: 'Luxurious Roman', cursive;
+    font-weight: 900;
+}
+
+.customize-location-section-heading, .customize-questions-section-heading{
+    
+    font-family: 'Luxurious Roman', cursive;
+    font-weight: 900;
+}
+
+.customize-package-section-card-body > h3 {
+    font-weight: 900;
+}
+
+.customize-package-section-card-body > h4{
+    font-weight: 800;
+}
+
+.far{
+    color: var(--primary);
+}
+
+.customize-package-section-third-card{
+    position: relative;
+    top: -10%;
+    box-shadow: var(--shadow);
+}
+
+.far-color{
+    color: white;
+    background: var(--primary);
+}
+
+/* main section ends */
