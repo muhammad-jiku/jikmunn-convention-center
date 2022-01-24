@@ -4,6 +4,11 @@
 }
 
 /* header section starts */
+.customize-navbar-brand{
+    
+    font-family: 'Luxurious Roman', cursive;
+    font-weight: 900;
+}
 .customize-carousel-caption > h1{
     font-family: 'Mochiy Pop P One', sans-serif;
     /* font-size: 38px; */
