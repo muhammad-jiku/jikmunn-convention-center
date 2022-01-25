@@ -4,28 +4,15 @@
     --secondary: #2619726c;
 }
 
+
 /* header section starts */
 .customize-navbar-brand{
-    
     font-family: 'Luxurious Roman', cursive;
-    font-weight: 900;
-}
-/* 
-.customize-carousel-item{
-    height: 100vh;
-    position: relative;
 }
 
-.customize-carousel-caption{
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    transform: translateY(50%);
-} */
-
-/* .customize-carousel-item{
-    opacity: 0.6;
-} */
+.customize-navbar-nav{
+    font-family: 'Poppins', sans-serif;
+}
 
 .customize-carousel-caption > h3{
     font-family: 'Mochiy Pop P One', sans-serif;
@@ -34,7 +21,6 @@
 
 .customize-carousel-caption > p{
     font-family: 'Poppins', sans-serif;
-    font-weight: 700;
     background-color: var(--secondary);
     color: white;
     padding: 10px 5px;
@@ -42,7 +28,6 @@
 
 .customize-carousel-caption > a{
     font-family: 'Poppins', sans-serif;
-    font-weight: 900;
     background: var(--primary);
     color: white;
 }
@@ -51,96 +36,112 @@
     background: white;
     color: var(--primary);
 }
-
-
 /* header section ends */
+
+
 
 /* main section starts */
 
-.customize-event-calendar-heading, .customize-book-section-heading{
+
+/* event calendar section starts */
+.customize-event-calendar-heading{
     font-family: 'Poppins', sans-serif;
 }
-
-.customize-event-calendar-heading > h2,h3{
-    
-    font-weight: 900;
-}
-
-.customize-booking-section-heading > h1{
-    font-family: 'Luxurious Roman', cursive;
-    font-weight: 900;
-}
-
-.customize-event-calendar-para, .customize-booking-section-para{
-    font-family: 'Poppins', sans-serif;
-    font-weight: 700;
-}
-
-.customize-event-calendar-button, .customize-booking-section-button{
-    
+.customize-event-calendar-button{
     font-family: 'Poppins', sans-serif;
 }
-
-.customize-event-calendar-button > button{
+.customize-event-calendar-para{
+    font-family: 'Poppins', sans-serif;
+}
+.customize-event-calendar-button > a{
     background: var(--primary);
     color: white;
-    font-weight: 800;
     border: 1px solid var(--primary);
 }
-
-.customize-booking-section-button > button{
-background: var(--primary);
-    color: white;
-    font-weight: 800;
-    border: 1px solid var(--primary);
-}
-
-.customize-event-calendar-button > button:hover{
+.customize-event-calendar-button > a:hover{
     background: white;
     color: var(--primary);
 }
+/* event calendar section ends */
 
+
+
+/* package section starts */
 .customize-package-section{
     font-family: 'Poppins', sans-serif;
 }
 .customize-package-section > h1{
     font-family: 'Luxurious Roman', cursive;
-    font-weight: 900;
 }
-
-.customize-location-section-heading, .customize-questions-section-heading{
-    
-    font-family: 'Luxurious Roman', cursive;
-    font-weight: 900;
-}
-
-.customize-package-section-card-body > h3 {
-    font-weight: 900;
-}
-
-.customize-package-section-card-body > h4{
-    font-weight: 800;
-}
-
 .far{
     color: var(--primary);
 }
-
 .customize-package-section-third-card{
     position: relative;
     top: -10%;
     box-shadow: var(--shadow);
 }
-
 .far-color{
     color: white;
-    background: var(--primary);
 }
+/* package section starts */
+
+
+/* location section starts */
+.customize-location-section-heading{
+    font-family: 'Luxurious Roman', cursive;
+}
+/* location section ends */
+
+
+
+/* booking section starts */
+.customize-booking-section-heading > h1{
+    font-family: 'Poppins', sans-serif;
+}
+.customize-booking-section-para{
+    font-family: 'Poppins', sans-serif;
+}
+.customize-booking-section-button{
+    font-family: 'Poppins', sans-serif;
+}
+.customize-booking-section-button > a{
+background: var(--primary);
+    color: white;
+    border: 1px solid var(--primary);
+}
+.customize-booking-section-button > a:hover{
+    background: white;
+    color: var(--primary);
+}
+/* booking section ends */
+
+
+/* questions section starts */
+.customize-questions-section-heading{
+    font-family: 'Luxurious Roman', cursive;
+}
+/* questions section ends */
+
 
 /* main section ends */
 
 
-/* media query */
+/* footer section starts */
+.customize-footer-section > p{
+    font-family: 'Poppins', sans-serif;
+}
+.customize-footer-section > section > span{  
+    font-size: 24px;
+    font-family: 'Luxurious Roman', cursive;
+}
+/* footer section ends */
+
+
+
+/* media query starts */
+
+/* responsive for xtra small devices */
 @media screen and (max-width: 576px) {
     .customize-carousel-caption > h3{
         font-size: 16px;
@@ -155,6 +156,7 @@ background: var(--primary);
     }
 }
 
+/* responsive small devices */
 @media screen and (min-width: 577px) and (max-width:768px)  {
     .customize-carousel-caption > h3{
         font-size: 18px;
@@ -169,7 +171,8 @@ background: var(--primary);
     }
 }
 
- @media screen and (min-width:769px) and (max-width:992px){
+/* responsive for medium devices */
+@media screen and (min-width:769px) and (max-width:992px){
     .customize-carousel-caption > h3{
         font-size: 20px;
     }
@@ -181,9 +184,10 @@ background: var(--primary);
     .customize-carousel-caption > a{
         font-size: 14px;
     }
- }
+}
 
- @media screen and (min-width:993px){
+ /* responsive for large device */
+@media screen and (min-width:993px){
     .customize-carousel-caption > h3{
         font-size: 22px;
     }
@@ -195,4 +199,6 @@ background: var(--primary);
     .customize-carousel-caption > a{
         font-size: 16px;
     }
- }
+}
+
+ /* media query ends */
