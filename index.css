@@ -1,6 +1,7 @@
 :root{
     --primary: #6047EC;
     --shadow: 0 25px 5px #6047ec9f;
+    --secondary: #2619726c;
 }
 
 /* header section starts */
@@ -9,15 +10,34 @@
     font-family: 'Luxurious Roman', cursive;
     font-weight: 900;
 }
-.customize-carousel-caption > h1{
+/* 
+.customize-carousel-item{
+    height: 100vh;
+    position: relative;
+}
+
+.customize-carousel-caption{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    transform: translateY(50%);
+} */
+
+/* .customize-carousel-item{
+    opacity: 0.6;
+} */
+
+.customize-carousel-caption > h3{
     font-family: 'Mochiy Pop P One', sans-serif;
-    /* font-size: 38px; */
-    /* color: rgb(0, 0, 0); */
+    color: whitesmoke;
 }
 
 .customize-carousel-caption > p{
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
+    background-color: var(--secondary);
+    color: white;
+    padding: 10px 5px;
 }
 
 .customize-carousel-caption > a{
@@ -118,3 +138,61 @@ background: var(--primary);
 }
 
 /* main section ends */
+
+
+/* media query */
+@media screen and (max-width: 576px) {
+    .customize-carousel-caption > h3{
+        font-size: 16px;
+    }
+
+    .customize-carousel-caption > p{
+        font-size: 10px;
+    }
+
+    .customize-carousel-caption > a{
+        font-size: 10px;
+    }
+}
+
+@media screen and (min-width: 577px) and (max-width:768px)  {
+    .customize-carousel-caption > h3{
+        font-size: 18px;
+    }
+
+    .customize-carousel-caption > p{
+        font-size: 12px;
+    }
+
+    .customize-carousel-caption > a{
+        font-size: 12px;
+    }
+}
+
+ @media screen and (min-width:769px) and (max-width:992px){
+    .customize-carousel-caption > h3{
+        font-size: 20px;
+    }
+
+    .customize-carousel-caption > p{
+        font-size: 14px;
+    }
+
+    .customize-carousel-caption > a{
+        font-size: 14px;
+    }
+ }
+
+ @media screen and (min-width:993px){
+    .customize-carousel-caption > h3{
+        font-size: 22px;
+    }
+
+    .customize-carousel-caption > p{
+        font-size: 16px;
+    }
+
+    .customize-carousel-caption > a{
+        font-size: 16px;
+    }
+ }
