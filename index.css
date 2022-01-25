@@ -9,29 +9,27 @@
 .customize-navbar-brand{
     font-family: 'Luxurious Roman', cursive;
 }
-
 .customize-navbar-nav{
     font-family: 'Poppins', sans-serif;
 }
+
 
 .customize-carousel-caption > h3{
     font-family: 'Mochiy Pop P One', sans-serif;
     color: whitesmoke;
 }
-
 .customize-carousel-caption > p{
     font-family: 'Poppins', sans-serif;
     background-color: var(--secondary);
     color: white;
     padding: 10px 5px;
 }
-
 .customize-carousel-caption > a{
     font-family: 'Poppins', sans-serif;
     background: var(--primary);
     color: white;
+    border: 1px solid var(--primary);
 }
-
 .customize-carousel-caption > a:hover{
     background: white;
     color: var(--primary);
@@ -47,10 +45,10 @@
 .customize-event-calendar-heading{
     font-family: 'Poppins', sans-serif;
 }
-.customize-event-calendar-button{
+.customize-event-calendar-para{
     font-family: 'Poppins', sans-serif;
 }
-.customize-event-calendar-para{
+.customize-event-calendar-button{
     font-family: 'Poppins', sans-serif;
 }
 .customize-event-calendar-button > a{
