@@ -42,6 +42,12 @@
 }
 
 .customize-event-calendar-heading > h2,h3{
+    
+    font-weight: 900;
+}
+
+.customize-booking-section-heading > h1{
+    font-family: 'Luxurious Roman', cursive;
     font-weight: 900;
 }
 
@@ -55,8 +61,15 @@
     font-family: 'Poppins', sans-serif;
 }
 
-.customize-event-calendar-button, .customize-booking-section-button > button{
+.customize-event-calendar-button > button{
     background: var(--primary);
+    color: white;
+    font-weight: 800;
+    border: 1px solid var(--primary);
+}
+
+.customize-booking-section-button > button{
+background: var(--primary);
     color: white;
     font-weight: 800;
     border: 1px solid var(--primary);
